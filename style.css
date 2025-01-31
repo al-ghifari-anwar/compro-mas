@@ -1,0 +1,173 @@
+.navbar {
+    position: sticky;
+    top: 0; /* Tetap di atas halaman */
+    z-index: 1020; /* Agar berada di atas elemen lain */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan agar lebih terlihat */
+    background-color: #f8f9fa; /* Warna latar belakang sesuai dengan kelas Bootstrap `bg-light` */
+}
+
+
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.hero-content button{
+    background-color: #1D2A44;
+}
+
+.hero h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; /* Ukuran lingkaran */
+    height: 150px; /* Ukuran lingkaran */
+    border-radius: 50%; /* Membuat lingkaran */
+    background-color: #1D2A44; /* Warna latar belakang lingkaran */
+    margin: 0 auto; /* Memastikan lingkaran ada di tengah */
+}
+
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.portofolio-section{
+    background-color: #dddddd;
+}
+
+.aboutus-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.aboutus button{
+    background-color: #1D2A44;
+}
+
+.circle2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; /* Ukuran lingkaran */
+    height: 150px; /* Ukuran lingkaran */
+    border-radius: 50%; /* Membuat lingkaran */
+    background-color: whitesmoke; /* Warna latar belakang lingkaran */
+    border: 2px solid #1D2A44 ;
+    margin: 0 auto; /* Memastikan lingkaran ada di tengah */
+}
+
+.staff img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.contact{
+    background-color: #1D2A44;
+}
+.btn{
+    background-color: #1D2A44;
+}
+
+.custom-footer {
+    background-color: #1D2A44;
+    color: white;
+    padding: 20px 0;
+  }
+  .custom-footer a {
+    color: #FFD700; /* Golden color for links */
+    text-decoration: none;
+  }
+  .custom-footer a:hover {
+    text-decoration: underline;
+  }
+
+  .custom-footer {
+    background-color: #1D2A44;
+    color: white;
+    padding: 40px 0;
+  }
+  .custom-footer a {
+    color: #FFD700; /* Golden color for links */
+    text-decoration: none;
+  }
+  .custom-footer a:hover {
+    text-decoration: underline;
+  }
+  .custom-footer h5 {
+    font-weight: bold;
+  }
+  .custom-footer p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.blog-container {
+    padding: 2rem;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #25d366;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp-float img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
