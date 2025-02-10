@@ -6,8 +6,9 @@ include('theme/menu.php');
 <div class="hero">
     <img src="image/banner.jpg" alt="Banner">
     <div class="hero-content">
-        <h3>Nova: Crafting Innovation, One Code at a Time</h3>
-        <p>Empowering businesses with tailored software solutions that drive success</p>
+        <h3>Miraswift</h3>
+        <p>Software house specializing in innovative IoT and automation solutions that drive efficiency and elevate your business performance.
+        </p>
         <a href="#service">
             <button type="button" class="btn btn-dark btn-lg">See Service</button>
         </a>
@@ -17,7 +18,7 @@ include('theme/menu.php');
 <div class="container-fluid Service pt-5 pb-5">
     <div class="container text-center">
         <h2 class="display-3" id="service">Service</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nesciunt.</p>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nesciunt.</p> -->
 
         <div class="row">
             <!-- Kolom pertama -->
@@ -33,8 +34,8 @@ include('theme/menu.php');
                         </g>
                     </svg>
                 </span>
-                <h3 class="mt-3">Programming</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, laborum!</p>
+                <h3 class="mt-3">MiraCloud</h3>
+                <p>Seamlessly connecting and processing unstructured data from your production center into powerful analytic based problem solution.</p>
             </div>
 
             <!-- Kolom kedua -->
@@ -52,8 +53,8 @@ include('theme/menu.php');
                         </g>
                     </svg>
                 </span>
-                <h3 class="mt-3">Design</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, laborum!</p>
+                <h3 class="mt-3">MiraMonitor</h3>
+                <p>Real Time Monitor and Control your production line through our mobile app from anywhere in the world. Troubleshot problems quickly and efficiently.</p>
             </div>
 
             <!-- Kolom ketiga -->
@@ -141,8 +142,8 @@ include('theme/menu.php');
                         </g>
                     </svg>
                 </span>
-                <h3 class="mt-3">Consulting</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, laborum!</p>
+                <h3 class="mt-3">Expert IoT Consultation</h3>
+                <p>We analyze your business goals and craft a customized IoT strategy that aligns with your vision and maximizes ROI.</p>
             </div>
         </div> <!-- End of row -->
     </div>
@@ -154,7 +155,7 @@ include('theme/menu.php');
 <div class="container-fluid staff pt-5 pb-5">
     <div class="container text-center">
         <h2 class="display-3" id="staff">Our Team</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nesciunt.</p>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nesciunt.</p> -->
 
         <div class="row">
             <!-- Kolom pertama -->

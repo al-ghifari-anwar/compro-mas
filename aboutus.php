@@ -19,9 +19,9 @@ include('theme/menu.php');
     <!-- Kolom Teks -->
     <div class="col-md-6">
       <h2 class="display-3" id="aboutus">About Us</h2>
-      <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur earum magnam autem doloremque quo vel maxime numquam repudiandae fugit aspernatur, alias in dolorem inventore eos esse mollitia deleniti voluptas.
+        At Miraswift, we are more than just a software house—we are innovators, problem-solvers, and digital transformation experts. Specializing in cutting-edge IoT and automation solutions, we empower businesses with smart technologies that drive efficiency, optimize performance, and unlock new levels of productivity.
       </p>
       <a href="#contact">
         <button type="button" class="btn btn-dark btn-lg mt-5">Contact Us</button>
